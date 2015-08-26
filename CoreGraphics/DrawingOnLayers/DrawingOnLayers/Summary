@@ -1,0 +1,40 @@
+
+When you add a subview, drawRect method is called to display / re-display
+it works as first line of action to draw on the view. What it really is doing is
+update the drawings on its Layers.
+
+To draw on CALayers you have 2 scenarios:
+
+1. You have all your drawing code on your underlaying layer, weather is using the graphic context, or just updating the image content
+
+****All the following methods, if defined, are using instead of the drawRect: method.
+****The delegate of the CALayer subclass is the UIView subclass
+
+    ----> USING THE LAYER'S DELEGATE
+          -(void)displayLayer:(CALayer *)layer. Limited to change only image content
+          -(void)drawLayer:(CALayer *)layer inContext:(CGContextRef)context. This can use core graphic functions
+
+    ----> USING THE SUBCLASS APPROACH
+          -(void)display{. Limited to change only image content
+          -(void)drawInContext:(CGContextRef)context. Able to use graphic the context
+
+
+
+2. You have other sublayers in your subview's underlaying layer, weather is using the graphic context, or just updating the image content
+
+****All the following methods, if defined, are using instead of the drawRect: method.
+****The delegate is set by updating the delegate PROPERTY on the Layer. It can be set to the View's Layer
+    As this is the delegate object of its own Layer.
+****A useful architecture for drawing into a layer through a delegate of your choosing is to treat a view
+    as a layer-hosting view: The view and its underlying layer do nothing except to serve as a host to a sublayer
+    of the view's underlaying layer, which is where the drawing occurs.
+
+
+    ----> USING THE LAYER'S DELEGATE
+          This methods should be overiden on the delegate
+          -(void)displayLayer:(CALayer *)layer. Limited to change only image content
+          -(void)drawLayer:(CALayer *)layer inContext:(CGContextRef)context. This can use core graphic functions
+
+    ----> USING THE SUBCLASS APPROACH
+          -(void)display{. Limited to change only image content
+          -(void)drawInContext:(CGContextRef)context. Able to use graphic the context
