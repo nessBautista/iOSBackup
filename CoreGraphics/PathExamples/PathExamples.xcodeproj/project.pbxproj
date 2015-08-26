@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC56711B1B4DC68D0033B2E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC56711A1B4DC68D0033B2E3 /* main.m */; };
+		CC56711E1B4DC68D0033B2E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC56711D1B4DC68D0033B2E3 /* AppDelegate.m */; };
+		CC5671211B4DC68D0033B2E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5671201B4DC68D0033B2E3 /* ViewController.m */; };
+		CC5671241B4DC68D0033B2E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5671221B4DC68D0033B2E3 /* Main.storyboard */; };
+		CC5671261B4DC68D0033B2E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC5671251B4DC68D0033B2E3 /* Images.xcassets */; };
+		CC5671291B4DC68D0033B2E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC5671271B4DC68D0033B2E3 /* LaunchScreen.xib */; };
+		CC5671351B4DC68D0033B2E3 /* PathExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5671341B4DC68D0033B2E3 /* PathExamplesTests.m */; };
+		CC5671401B4DD7DE0033B2E3 /* LineExample1.m in Sources */ = {isa = PBXBuildFile; fileRef = CC56713F1B4DD7DE0033B2E3 /* LineExample1.m */; };
+		CC5671431B4DE29A0033B2E3 /* LineExample2.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5671421B4DE29A0033B2E3 /* LineExample2.m */; };
+		CC5671461B4DEEBA0033B2E3 /* ArcExample1.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5671451B4DEEBA0033B2E3 /* ArcExample1.m */; };
+		CC5671491B4E30FA0033B2E3 /* CurveExample1.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5671481B4E30FA0033B2E3 /* CurveExample1.m */; };
+		CC74AA771B506A7300385CF4 /* GradientExample1.m in Sources */ = {isa = PBXBuildFile; fileRef = CC74AA761B506A7300385CF4 /* GradientExample1.m */; };
+		CC74AA7A1B50783300385CF4 /* SineGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = CC74AA791B50783300385CF4 /* SineGradient.m */; };
+		CC74AA7D1B5082FC00385CF4 /* TriangleGradientWave.m in Sources */ = {isa = PBXBuildFile; fileRef = CC74AA7C1B5082FC00385CF4 /* TriangleGradientWave.m */; };
+		CC74AA801B5084C400385CF4 /* SawtoothGradientWave2.m in Sources */ = {isa = PBXBuildFile; fileRef = CC74AA7F1B5084C400385CF4 /* SawtoothGradientWave2.m */; };
+		CC85EFB51B73FB0100684F08 /* RadialGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85EFB41B73FB0100684F08 /* RadialGradient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC56712F1B4DC68D0033B2E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC56710D1B4DC68D0033B2E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC5671141B4DC68D0033B2E3;
+			remoteInfo = PathExamples;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC5671151B4DC68D0033B2E3 /* PathExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5671191B4DC68D0033B2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC56711A1B4DC68D0033B2E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC56711C1B4DC68D0033B2E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC56711D1B4DC68D0033B2E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC56711F1B4DC68D0033B2E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC5671201B4DC68D0033B2E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC5671231B4DC68D0033B2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC5671251B4DC68D0033B2E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC5671281B4DC68D0033B2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC56712E1B4DC68D0033B2E3 /* PathExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5671331B4DC68D0033B2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5671341B4DC68D0033B2E3 /* PathExamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathExamplesTests.m; sourceTree = "<group>"; };
+		CC56713E1B4DD7DE0033B2E3 /* LineExample1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineExample1.h; sourceTree = "<group>"; };
+		CC56713F1B4DD7DE0033B2E3 /* LineExample1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineExample1.m; sourceTree = "<group>"; };
+		CC5671411B4DE29A0033B2E3 /* LineExample2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineExample2.h; sourceTree = "<group>"; };
+		CC5671421B4DE29A0033B2E3 /* LineExample2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineExample2.m; sourceTree = "<group>"; };
+		CC5671441B4DEEBA0033B2E3 /* ArcExample1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcExample1.h; sourceTree = "<group>"; };
+		CC5671451B4DEEBA0033B2E3 /* ArcExample1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcExample1.m; sourceTree = "<group>"; };
+		CC5671471B4E30FA0033B2E3 /* CurveExample1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveExample1.h; sourceTree = "<group>"; };
+		CC5671481B4E30FA0033B2E3 /* CurveExample1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveExample1.m; sourceTree = "<group>"; };
+		CC74AA751B506A7300385CF4 /* GradientExample1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientExample1.h; sourceTree = "<group>"; };
+		CC74AA761B506A7300385CF4 /* GradientExample1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientExample1.m; sourceTree = "<group>"; };
+		CC74AA781B50783300385CF4 /* SineGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SineGradient.h; sourceTree = "<group>"; };
+		CC74AA791B50783300385CF4 /* SineGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SineGradient.m; sourceTree = "<group>"; };
+		CC74AA7B1B5082FC00385CF4 /* TriangleGradientWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleGradientWave.h; sourceTree = "<group>"; };
+		CC74AA7C1B5082FC00385CF4 /* TriangleGradientWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleGradientWave.m; sourceTree = "<group>"; };
+		CC74AA7E1B5084C400385CF4 /* SawtoothGradientWave2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SawtoothGradientWave2.h; sourceTree = "<group>"; };
+		CC74AA7F1B5084C400385CF4 /* SawtoothGradientWave2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SawtoothGradientWave2.m; sourceTree = "<group>"; };
+		CC85EFB31B73FB0100684F08 /* RadialGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialGradient.h; sourceTree = "<group>"; };
+		CC85EFB41B73FB0100684F08 /* RadialGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialGradient.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC5671121B4DC68D0033B2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC56712B1B4DC68D0033B2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC56710C1B4DC68D0033B2E3 = {
+			isa = PBXGroup;
+			children = (
+				CC5671171B4DC68D0033B2E3 /* PathExamples */,
+				CC5671311B4DC68D0033B2E3 /* PathExamplesTests */,
+				CC5671161B4DC68D0033B2E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC5671161B4DC68D0033B2E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC5671151B4DC68D0033B2E3 /* PathExamples.app */,
+				CC56712E1B4DC68D0033B2E3 /* PathExamplesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC5671171B4DC68D0033B2E3 /* PathExamples */ = {
+			isa = PBXGroup;
+			children = (
+				CC56711C1B4DC68D0033B2E3 /* AppDelegate.h */,
+				CC56711D1B4DC68D0033B2E3 /* AppDelegate.m */,
+				CC56711F1B4DC68D0033B2E3 /* ViewController.h */,
+				CC5671201B4DC68D0033B2E3 /* ViewController.m */,
+				CC56713E1B4DD7DE0033B2E3 /* LineExample1.h */,
+				CC56713F1B4DD7DE0033B2E3 /* LineExample1.m */,
+				CC5671411B4DE29A0033B2E3 /* LineExample2.h */,
+				CC5671421B4DE29A0033B2E3 /* LineExample2.m */,
+				CC5671441B4DEEBA0033B2E3 /* ArcExample1.h */,
+				CC5671451B4DEEBA0033B2E3 /* ArcExample1.m */,
+				CC5671471B4E30FA0033B2E3 /* CurveExample1.h */,
+				CC5671481B4E30FA0033B2E3 /* CurveExample1.m */,
+				CC74AA751B506A7300385CF4 /* GradientExample1.h */,
+				CC74AA761B506A7300385CF4 /* GradientExample1.m */,
+				CC74AA781B50783300385CF4 /* SineGradient.h */,
+				CC74AA791B50783300385CF4 /* SineGradient.m */,
+				CC74AA7B1B5082FC00385CF4 /* TriangleGradientWave.h */,
+				CC74AA7C1B5082FC00385CF4 /* TriangleGradientWave.m */,
+				CC74AA7E1B5084C400385CF4 /* SawtoothGradientWave2.h */,
+				CC74AA7F1B5084C400385CF4 /* SawtoothGradientWave2.m */,
+				CC85EFB31B73FB0100684F08 /* RadialGradient.h */,
+				CC85EFB41B73FB0100684F08 /* RadialGradient.m */,
+				CC5671221B4DC68D0033B2E3 /* Main.storyboard */,
+				CC5671251B4DC68D0033B2E3 /* Images.xcassets */,
+				CC5671271B4DC68D0033B2E3 /* LaunchScreen.xib */,
+				CC5671181B4DC68D0033B2E3 /* Supporting Files */,
+			);
+			path = PathExamples;
+			sourceTree = "<group>";
+		};
+		CC5671181B4DC68D0033B2E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC5671191B4DC68D0033B2E3 /* Info.plist */,
+				CC56711A1B4DC68D0033B2E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC5671311B4DC68D0033B2E3 /* PathExamplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC5671341B4DC68D0033B2E3 /* PathExamplesTests.m */,
+				CC5671321B4DC68D0033B2E3 /* Supporting Files */,
+			);
+			path = PathExamplesTests;
+			sourceTree = "<group>";
+		};
+		CC5671321B4DC68D0033B2E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC5671331B4DC68D0033B2E3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC5671141B4DC68D0033B2E3 /* PathExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5671381B4DC68D0033B2E3 /* Build configuration list for PBXNativeTarget "PathExamples" */;
+			buildPhases = (
+				CC5671111B4DC68D0033B2E3 /* Sources */,
+				CC5671121B4DC68D0033B2E3 /* Frameworks */,
+				CC5671131B4DC68D0033B2E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PathExamples;
+			productName = PathExamples;
+			productReference = CC5671151B4DC68D0033B2E3 /* PathExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC56712D1B4DC68D0033B2E3 /* PathExamplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC56713B1B4DC68D0033B2E3 /* Build configuration list for PBXNativeTarget "PathExamplesTests" */;
+			buildPhases = (
+				CC56712A1B4DC68D0033B2E3 /* Sources */,
+				CC56712B1B4DC68D0033B2E3 /* Frameworks */,
+				CC56712C1B4DC68D0033B2E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5671301B4DC68D0033B2E3 /* PBXTargetDependency */,
+			);
+			name = PathExamplesTests;
+			productName = PathExamplesTests;
+			productReference = CC56712E1B4DC68D0033B2E3 /* PathExamplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC56710D1B4DC68D0033B2E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Ness;
+				TargetAttributes = {
+					CC5671141B4DC68D0033B2E3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CC56712D1B4DC68D0033B2E3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CC5671141B4DC68D0033B2E3;
+					};
+				};
+			};
+			buildConfigurationList = CC5671101B4DC68D0033B2E3 /* Build configuration list for PBXProject "PathExamples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC56710C1B4DC68D0033B2E3;
+			productRefGroup = CC5671161B4DC68D0033B2E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC5671141B4DC68D0033B2E3 /* PathExamples */,
+				CC56712D1B4DC68D0033B2E3 /* PathExamplesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC5671131B4DC68D0033B2E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5671241B4DC68D0033B2E3 /* Main.storyboard in Resources */,
+				CC5671291B4DC68D0033B2E3 /* LaunchScreen.xib in Resources */,
+				CC5671261B4DC68D0033B2E3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC56712C1B4DC68D0033B2E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC5671111B4DC68D0033B2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC74AA771B506A7300385CF4 /* GradientExample1.m in Sources */,
+				CC5671431B4DE29A0033B2E3 /* LineExample2.m in Sources */,
+				CC5671211B4DC68D0033B2E3 /* ViewController.m in Sources */,
+				CC56711E1B4DC68D0033B2E3 /* AppDelegate.m in Sources */,
+				CC5671461B4DEEBA0033B2E3 /* ArcExample1.m in Sources */,
+				CC74AA801B5084C400385CF4 /* SawtoothGradientWave2.m in Sources */,
+				CC5671491B4E30FA0033B2E3 /* CurveExample1.m in Sources */,
+				CC5671401B4DD7DE0033B2E3 /* LineExample1.m in Sources */,
+				CC74AA7A1B50783300385CF4 /* SineGradient.m in Sources */,
+				CC74AA7D1B5082FC00385CF4 /* TriangleGradientWave.m in Sources */,
+				CC85EFB51B73FB0100684F08 /* RadialGradient.m in Sources */,
+				CC56711B1B4DC68D0033B2E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC56712A1B4DC68D0033B2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5671351B4DC68D0033B2E3 /* PathExamplesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC5671301B4DC68D0033B2E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC5671141B4DC68D0033B2E3 /* PathExamples */;
+			targetProxy = CC56712F1B4DC68D0033B2E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC5671221B4DC68D0033B2E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC5671231B4DC68D0033B2E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC5671271B4DC68D0033B2E3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC5671281B4DC68D0033B2E3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC5671361B4DC68D0033B2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC5671371B4DC68D0033B2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC5671391B4DC68D0033B2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PathExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC56713A1B4DC68D0033B2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PathExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC56713C1B4DC68D0033B2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PathExamplesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PathExamples.app/PathExamples";
+			};
+			name = Debug;
+		};
+		CC56713D1B4DC68D0033B2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PathExamplesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PathExamples.app/PathExamples";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC5671101B4DC68D0033B2E3 /* Build configuration list for PBXProject "PathExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5671361B4DC68D0033B2E3 /* Debug */,
+				CC5671371B4DC68D0033B2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5671381B4DC68D0033B2E3 /* Build configuration list for PBXNativeTarget "PathExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5671391B4DC68D0033B2E3 /* Debug */,
+				CC56713A1B4DC68D0033B2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC56713B1B4DC68D0033B2E3 /* Build configuration list for PBXNativeTarget "PathExamplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC56713C1B4DC68D0033B2E3 /* Debug */,
+				CC56713D1B4DC68D0033B2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC56710D1B4DC68D0033B2E3 /* Project object */;
+}
