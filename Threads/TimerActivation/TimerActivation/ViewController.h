@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    SEL testSelector;
+    BOOL running;
+    NSRunLoop *loop;
+}
 
-
+@property (weak, nonatomic) IBOutlet UIButton *myButton;
+- (IBAction)timerAction:(id)sender;
+@property NSTimer *timer;
 @end
 

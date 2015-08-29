@@ -1,0 +1,7 @@
+There are three ways to create a timer:
+
+Use the scheduledTimerWithTimeInterval:invocation:repeats: or scheduledTimerWithTimeInterval:target:selector:userInfo:repeats: class method to create the timer and schedule it on the current run loop in the default mode.
+Use the timerWithTimeInterval:invocation:repeats: or timerWithTimeInterval:target:selector:userInfo:repeats: class method to create the timer object without scheduling it on a run loop. (After creating it, you must add the timer to a run loop manually by calling the addTimer:forMode: method of the corresponding NSRunLoop object.)
+Allocate the timer and initialize it using the initWithFireDate:interval:target:selector:userInfo:repeats: method. (After creating it, you must add the timer to a run loop manually by calling the addTimer:forMode: method of the corresponding NSRunLoop object.)
+
+Also remember that you must send invalidate message from the thread on which the timer was installed. If you send this message from another thread, the input source associated with the timer may not be removed from its run loop, which could prevent the thread from exiting properly.

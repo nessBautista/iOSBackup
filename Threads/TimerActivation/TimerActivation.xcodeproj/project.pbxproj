@@ -14,6 +14,7 @@
 		CCC7F49A1B90D33C00E39BBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC7F4991B90D33C00E39BBF /* Images.xcassets */; };
 		CCC7F49D1B90D33C00E39BBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC7F49B1B90D33C00E39BBF /* LaunchScreen.xib */; };
 		CCC7F4A91B90D33C00E39BBF /* TimerActivationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC7F4A81B90D33C00E39BBF /* TimerActivationTests.m */; };
+		CCC7F4B31B90DC2400E39BBF /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = CCC7F4B21B90DC2400E39BBF /* Readme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		CCC7F4A21B90D33C00E39BBF /* TimerActivationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerActivationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC7F4A71B90D33C00E39BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCC7F4A81B90D33C00E39BBF /* TimerActivationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerActivationTests.m; sourceTree = "<group>"; };
+		CCC7F4B21B90DC2400E39BBF /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				CCC7F4911B90D33C00E39BBF /* AppDelegate.m */,
 				CCC7F4931B90D33C00E39BBF /* ViewController.h */,
 				CCC7F4941B90D33C00E39BBF /* ViewController.m */,
+				CCC7F4B21B90DC2400E39BBF /* Readme */,
 				CCC7F4961B90D33C00E39BBF /* Main.storyboard */,
 				CCC7F4991B90D33C00E39BBF /* Images.xcassets */,
 				CCC7F49B1B90D33C00E39BBF /* LaunchScreen.xib */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC7F4B31B90DC2400E39BBF /* Readme in Resources */,
 				CCC7F4981B90D33C00E39BBF /* Main.storyboard in Resources */,
 				CCC7F49D1B90D33C00E39BBF /* LaunchScreen.xib in Resources */,
 				CCC7F49A1B90D33C00E39BBF /* Images.xcassets in Resources */,
