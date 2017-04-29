@@ -8,6 +8,7 @@
 
 import UIKit
 
+//MARK: BINARY TREE CLASS
 public class BinaryTree<T:Comparable>
 {
     public var root:BinaryTreeNode<T>?
@@ -509,7 +510,7 @@ public class BinaryTree<T:Comparable>
     }
 }
 
-
+//MARK: SINGLE NODE CLASS
 
 public class BinaryTreeNode<T:Comparable>
 {

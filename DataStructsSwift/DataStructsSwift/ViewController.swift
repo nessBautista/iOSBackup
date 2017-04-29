@@ -17,10 +17,21 @@ class ViewController: UIViewController {
         //self.testRedBlackTree()
         //self.testBinaryTree()
         
-        self.checkExample()
+        //self.checkExample()
+        self.testGraph()
         
     }
     
+    func testGraph()
+    {
+        let graph = Graph(nVertices: 10, directed: false)
+        graph.addEdge(x: 1, y: 3, directed: false)
+        graph.addEdge(x: 1, y: 4, directed: false)
+        graph.addEdge(x: 4, y: 5, directed: false)
+        graph.addEdge(x: 5, y: 6, directed: false)
+        graph.addEdge(x: 3, y: 6, directed: false)
+        graph.printGraph()
+    }
     func checkExample()
     {
         let binaryTree = BinaryTree(root: 10)
