@@ -8,14 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        self.testSort()
-        
+        self.testGraph()
     }
+    
     func testSort()
     {
         let sort = Sort()
@@ -28,13 +29,22 @@ class ViewController: UIViewController {
     }
     func testGraph()
     {
-        let graph = Graph(nVertices: 10, directed: false)
-        graph.addEdge(x: 1, y: 3, directed: false)
-        graph.addEdge(x: 1, y: 4, directed: false)
-        graph.addEdge(x: 4, y: 5, directed: false)
-        graph.addEdge(x: 5, y: 6, directed: false)
-        graph.addEdge(x: 3, y: 6, directed: false)
+        let graph = Graph(vertices: 10)
+        graph.addEdge(x: 1, y:6, isDirected: false)
+        graph.addEdge(x: 1, y:2, isDirected: false)
+        graph.addEdge(x: 1, y:5, isDirected: false)
+        graph.addEdge(x: 2, y:5, isDirected: false)
+        graph.addEdge(x: 2, y:3, isDirected: false)
+        graph.addEdge(x: 5, y:4, isDirected: false)
+        graph.addEdge(x: 3, y:4, isDirected: false)
         graph.printGraph()
+        graph.BFS(start: 1)
+        graph.findPath(start: 2, end: 6)
+//        for (index,parent) in graph.parent.enumerated()
+//        {
+//            print("vertex:\(index) parent:\(parent)")
+//        }
+        
     }
     func checkExample()
     {
