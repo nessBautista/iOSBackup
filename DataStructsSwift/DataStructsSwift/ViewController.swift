@@ -13,15 +13,19 @@ class ViewController: UIViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
-        //self.testRedBlackTree()
-        //self.testBinaryTree()
-        
-        //self.checkExample()
-        self.testGraph()
+        self.testSort()
         
     }
-    
+    func testSort()
+    {
+        let sort = Sort()
+        sort.array = [4,2,6,2,5,15,8]
+        sort.insertionSort()
+        for i in sort.array ?? [Int]()
+        {
+            print(i)
+        }
+    }
     func testGraph()
     {
         let graph = Graph(nVertices: 10, directed: false)
