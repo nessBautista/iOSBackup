@@ -17,13 +17,14 @@ class Graph: NSObject
     var degree:[Int]            //Degree of connection
     var nEdges:Int = 0
     var isDirected: Bool = false
+    
     //For Traversal
     var discovered:[Bool]
     var processed:[Bool]
     var time_exit:[Int]
     var time_entry:[Int]
-    
-    
+    var isFinished = false
+    var time = 0
     init(vertices: Int)
     {
         self.nVertices = vertices
@@ -127,17 +128,60 @@ class Graph: NSObject
             print(end)
         }
     }
+    
     func process_vertex_early(_ vertex: Int)
     {
         
     }
+    
     func process_vertex_late(_ vertex: Int)
     {
         
     }
+    
     func process_edges(_ x: Int, _ y: Int)
     {
         
+    }
+    
+    //MARK: DFS TRAVERSAL
+    func DFS(v: Int)
+    {
+        if isFinished == true
+        {
+            return
+        }
+        self.time += 1
+        self.time_entry[v] = self.time
+        self.process_vertex_early(v)
+        
+        self.discovered[v] = true
+        
+        var node = self.edges[v]
+        while node != nil
+        {
+            let y = node!.y
+            if self.discovered[y] == false
+            {
+                self.parent[y] = v
+                self.process_edges(v, y)
+                self.DFS(v: y)
+            }
+            else if self.processed[y] == false || self.isDirected == true
+            {
+                self.process_edges(v, y)
+            }
+            if isFinished == true
+            {
+                return
+            }
+            node = node?.next
+        }
+        
+        self.process_vertex_late(v)
+        self.time += 1
+        self.time_exit[v] = time
+        self.processed[v] = true
     }
 }
 

@@ -38,8 +38,8 @@ class ViewController: UIViewController
         graph.addEdge(x: 5, y:4, isDirected: false)
         graph.addEdge(x: 3, y:4, isDirected: false)
         graph.printGraph()
-        graph.BFS(start: 1)
-        graph.findPath(start: 2, end: 6)
+        graph.DFS(v: 1)
+        graph.findPath(start: 1, end: 3)
 //        for (index,parent) in graph.parent.enumerated()
 //        {
 //            print("vertex:\(index) parent:\(parent)")
