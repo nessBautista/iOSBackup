@@ -1,0 +1,108 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ControlEventType"
+- "ControlEvent"
+provides-nominal:
+- "P7RxCocoa16ControlEventType"
+- "V7RxCocoa12ControlEvent"
+provides-member:
+- ["P7RxCocoa16ControlEventType", ""]
+- ["V7RxCocoa12ControlEvent", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "ConcurrentMainScheduler"
+- "ControlEventType"
+- "ObservableType"
+- "Observable"
+- "ControlEvent"
+- "ObserverType"
+- "AssignmentPrecedence"
+- "Disposable"
+depends-member:
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "instance"]
+- !private ["Ps9AnyObject", "subscribe"]
+- ["C7RxSwift23ConcurrentMainScheduler", "deinit"]
+- !private ["C7RxSwift23ConcurrentMainScheduler", "instance"]
+- !private ["V7RxCocoa12ControlEvent", "ConcurrentMainScheduler"]
+- ["V7RxCocoa12ControlEvent", "ControlEvent"]
+- ["V7RxCocoa12ControlEvent", "Disposable"]
+- ["V7RxCocoa12ControlEvent", "E"]
+- ["V7RxCocoa12ControlEvent", "Observable"]
+- ["V7RxCocoa12ControlEvent", "ObservableType"]
+- ["V7RxCocoa12ControlEvent", "ObserverType"]
+- ["V7RxCocoa12ControlEvent", "PropertyType"]
+- ["V7RxCocoa12ControlEvent", "_events"]
+- ["V7RxCocoa12ControlEvent", "asControlEvent"]
+- ["V7RxCocoa12ControlEvent", "asObservable"]
+- ["V7RxCocoa12ControlEvent", "deinit"]
+- ["V7RxCocoa12ControlEvent", "init"]
+- ["V7RxCocoa12ControlEvent", "subscribe"]
+- !private ["P7RxCocoa16ControlEventType", "ConcurrentMainScheduler"]
+- ["P7RxCocoa16ControlEventType", "ControlEvent"]
+- ["P7RxCocoa16ControlEventType", "E"]
+- !private ["P7RxCocoa16ControlEventType", "_events"]
+- ["P7RxCocoa16ControlEventType", "asControlEvent"]
+- ["P7RxCocoa16ControlEventType", "asObservable"]
+- ["P7RxCocoa16ControlEventType", "subscribe"]
+- ["P7RxCocoa16ControlEventType", ""]
+- ["P7RxSwift10Disposable", "deinit"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "instance"]
+- !private ["C7RxSwift10Observable", "E"]
+- ["C7RxSwift10Observable", "deinit"]
+- !private ["C7RxSwift10Observable", "subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "ConcurrentMainScheduler"]
+- ["P7RxSwift25ObservableConvertibleType", "ControlEvent"]
+- ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_events"]
+- ["P7RxSwift25ObservableConvertibleType", "asControlEvent"]
+- ["P7RxSwift25ObservableConvertibleType", "asObservable"]
+- ["P7RxSwift25ObservableConvertibleType", "subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "subscribeOn"]
+- ["P7RxSwift25ObservableConvertibleType", ""]
+- !private ["P7RxSwift14ObservableType", "ConcurrentMainScheduler"]
+- ["P7RxSwift14ObservableType", "ControlEvent"]
+- ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "_events"]
+- ["P7RxSwift14ObservableType", "asControlEvent"]
+- ["P7RxSwift14ObservableType", "asObservable"]
+- ["P7RxSwift14ObservableType", "subscribe"]
+- !private ["P7RxSwift14ObservableType", "subscribeOn"]
+- ["P7RxSwift14ObservableType", ""]
+- ["P7RxSwift12ObserverType", "E"]
+- !private ["P7RxSwift13SchedulerType", "instance"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "C7RxSwift23ConcurrentMainScheduler"
+- "V7RxCocoa12ControlEvent"
+- "P7RxCocoa16ControlEventType"
+- "P7RxSwift10Disposable"
+- !private "P7RxSwift22ImmediateSchedulerType"
+- "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+- "P7RxSwift12ObserverType"
+- !private "P7RxSwift13SchedulerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxSwift.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RXObjCRuntime.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RXKVOObserver.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RXDelegateProxy.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RX.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/RxCocoaRuntime.h"
+interface-hash: "6904928527d6f7286a8f5f033ed756a9"

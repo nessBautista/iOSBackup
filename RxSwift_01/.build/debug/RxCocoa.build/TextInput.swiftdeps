@@ -1,0 +1,62 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextInput"
+provides-nominal:
+- "V7RxCocoa9TextInput"
+provides-member:
+- ["V7RxCocoa9TextInput", ""]
+- ["V7RxSwift8Reactive", ""]
+- ["V7RxSwift8Reactive", "textInput"]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSTextField"
+- "ControlProperty"
+- "NSTextInputClient"
+- "AssignmentPrecedence"
+- "Reactive"
+- "String"
+- "TextInput"
+depends-member:
+- ["V7RxCocoa15ControlProperty", "deinit"]
+- ["V7RxSwift8Reactive", "Base"]
+- ["V7RxSwift8Reactive", "NSTextField"]
+- ["V7RxSwift8Reactive", "NSTextInputClient"]
+- ["V7RxSwift8Reactive", "TextInput"]
+- !private ["V7RxSwift8Reactive", "base"]
+- ["V7RxSwift8Reactive", "deinit"]
+- !private ["V7RxSwift8Reactive", "text"]
+- ["V7RxSwift8Reactive", "textInput"]
+- ["V7RxCocoa9TextInput", "Base"]
+- ["V7RxCocoa9TextInput", "ControlProperty"]
+- ["V7RxCocoa9TextInput", "String"]
+- ["V7RxCocoa9TextInput", "base"]
+- ["V7RxCocoa9TextInput", "deinit"]
+- ["V7RxCocoa9TextInput", "init"]
+- ["V7RxCocoa9TextInput", "text"]
+depends-nominal:
+- "V7RxCocoa15ControlProperty"
+- "V7RxSwift8Reactive"
+- "V7RxCocoa9TextInput"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxSwift.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RXObjCRuntime.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RXKVOObserver.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RXDelegateProxy.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RX.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/RxCocoaRuntime.h"
+interface-hash: "a96238935070071fae06483e16f9ace1"

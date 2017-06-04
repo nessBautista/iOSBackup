@@ -1,0 +1,25 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C10RxSwift_0114ViewController"
+provides-member:
+- ["C10RxSwift_0114ViewController", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "UIViewController"
+- "ViewController"
+depends-member:
+- ["Ps9AnyObject", ""]
+- ["C10RxSwift_0114ViewController", "deinit"]
+- ["C10RxSwift_0114ViewController", "didReceiveMemoryWarning"]
+- ["C10RxSwift_0114ViewController", "init"]
+- ["C10RxSwift_0114ViewController", "viewDidLoad"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C10RxSwift_0114ViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "2273e0b6560749631899e82af2412a52"

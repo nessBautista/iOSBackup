@@ -1,0 +1,110 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["V7RxCocoa14SharedSequence", ""]
+- ["P7RxCocoa29SharedSequenceConvertibleType", ""]
+- ["V7RxCocoa14SharedSequence", "zip"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "zip"]
+- ["V7RxCocoa14SharedSequence", "combineLatest"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "combineLatest"]
+- ["V7RxCocoa14SharedSequence", "zip"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "zip"]
+- ["V7RxCocoa14SharedSequence", "combineLatest"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "combineLatest"]
+- ["V7RxCocoa14SharedSequence", "zip"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "zip"]
+- ["V7RxCocoa14SharedSequence", "combineLatest"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "combineLatest"]
+- ["V7RxCocoa14SharedSequence", "zip"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "zip"]
+- ["V7RxCocoa14SharedSequence", "combineLatest"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "combineLatest"]
+- ["V7RxCocoa14SharedSequence", "zip"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "zip"]
+- ["V7RxCocoa14SharedSequence", "combineLatest"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "combineLatest"]
+- ["V7RxCocoa14SharedSequence", "zip"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "zip"]
+- ["V7RxCocoa14SharedSequence", "combineLatest"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "combineLatest"]
+- ["V7RxCocoa14SharedSequence", "zip"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "zip"]
+- ["V7RxCocoa14SharedSequence", "combineLatest"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "combineLatest"]
+provides-dynamic-lookup:
+depends-top-level:
+- "SharedSequence"
+- "SharedSequenceConvertibleType"
+- !private "Observable"
+depends-member:
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "combineLatest"]
+- !private ["Ps9AnyObject", "zip"]
+- !private ["C7RxSwift10Observable", "E"]
+- !private ["C7RxSwift10Observable", "combineLatest"]
+- ["C7RxSwift10Observable", "deinit"]
+- !private ["C7RxSwift10Observable", "zip"]
+- ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "Observable"]
+- ["P7RxSwift25ObservableConvertibleType", "SharedSequence"]
+- ["P7RxSwift25ObservableConvertibleType", "SharedSequenceConvertibleType"]
+- ["P7RxSwift25ObservableConvertibleType", "SharingStrategy"]
+- !private ["P7RxSwift25ObservableConvertibleType", "asObservable"]
+- !private ["P7RxSwift25ObservableConvertibleType", "asSharedSequence"]
+- !private ["P7RxSwift25ObservableConvertibleType", "combineLatest"]
+- !private ["P7RxSwift25ObservableConvertibleType", "init"]
+- !private ["P7RxSwift25ObservableConvertibleType", "zip"]
+- !private ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "combineLatest"]
+- !private ["P7RxSwift14ObservableType", "zip"]
+- ["V7RxCocoa14SharedSequence", "E"]
+- !private ["V7RxCocoa14SharedSequence", "Observable"]
+- ["V7RxCocoa14SharedSequence", "SharedSequence"]
+- ["V7RxCocoa14SharedSequence", "SharedSequenceConvertibleType"]
+- ["V7RxCocoa14SharedSequence", "SharingStrategy"]
+- !private ["V7RxCocoa14SharedSequence", "asObservable"]
+- ["V7RxCocoa14SharedSequence", "combineLatest"]
+- ["V7RxCocoa14SharedSequence", "deinit"]
+- !private ["V7RxCocoa14SharedSequence", "init"]
+- ["V7RxCocoa14SharedSequence", "zip"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "E"]
+- !private ["P7RxCocoa29SharedSequenceConvertibleType", "Observable"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "SharedSequence"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "SharedSequenceConvertibleType"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "SharingStrategy"]
+- !private ["P7RxCocoa29SharedSequenceConvertibleType", "asObservable"]
+- !private ["P7RxCocoa29SharedSequenceConvertibleType", "asSharedSequence"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "combineLatest"]
+- !private ["P7RxCocoa29SharedSequenceConvertibleType", "init"]
+- ["P7RxCocoa29SharedSequenceConvertibleType", "zip"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- "V7RxCocoa14SharedSequence"
+- "P7RxCocoa29SharedSequenceConvertibleType"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxSwift.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RXObjCRuntime.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RXKVOObserver.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RXDelegateProxy.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RX.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/RxCocoaRuntime.h"
+interface-hash: "7a4d9db846f76cac6878ccacb2df2bf4"

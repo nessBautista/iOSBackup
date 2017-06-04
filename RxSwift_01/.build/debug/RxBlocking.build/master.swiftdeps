@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "4b0871d7364788360d356b9322e4bfe1"
+build_time: [548963621, 245705000]
+inputs:
+  "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxBlocking/BlockingObservable+Operators.swift": [548963596, 0]
+  "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxBlocking/BlockingObservable.swift": [548963596, 0]
+  "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxBlocking/ObservableConvertibleType+Blocking.swift": [548963596, 0]
+  "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxBlocking/Platform.Darwin.swift": [548963596, 0]
+  "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxBlocking/Platform.Linux.swift": [548963596, 0]
+  "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxBlocking/RecursiveLock.swift": [548963596, 0]
+  "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxBlocking/Resources.swift": [548963596, 0]
+  "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxBlocking/RunLoopLock.swift": [548963596, 0]

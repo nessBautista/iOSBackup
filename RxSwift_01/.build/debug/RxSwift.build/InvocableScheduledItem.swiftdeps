@@ -1,0 +1,42 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InvocableScheduledItem"
+provides-nominal:
+- "V7RxSwift22InvocableScheduledItem"
+provides-member:
+- ["V7RxSwift22InvocableScheduledItem", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "InvocableWithValueType"
+- "InvocableScheduledItem"
+- "AssignmentPrecedence"
+- "InvocableType"
+depends-member:
+- ["V7RxSwift22InvocableScheduledItem", "I"]
+- ["V7RxSwift22InvocableScheduledItem", "_invocable"]
+- ["V7RxSwift22InvocableScheduledItem", "_state"]
+- ["V7RxSwift22InvocableScheduledItem", "deinit"]
+- ["V7RxSwift22InvocableScheduledItem", "init"]
+- ["V7RxSwift22InvocableScheduledItem", "invoke"]
+- !private ["P7RxSwift13InvocableType", "_invocable"]
+- !private ["P7RxSwift13InvocableType", "_state"]
+- ["P7RxSwift13InvocableType", "invoke"]
+- ["P7RxSwift13InvocableType", ""]
+- ["P7RxSwift22InvocableWithValueType", "Value"]
+- !private ["P7RxSwift22InvocableWithValueType", "invoke"]
+depends-nominal:
+- "V7RxSwift22InvocableScheduledItem"
+- "P7RxSwift13InvocableType"
+- "P7RxSwift22InvocableWithValueType"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "751f6b5b4291b67e2ab3a368d3caf32d"

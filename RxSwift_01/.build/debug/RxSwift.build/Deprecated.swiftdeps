@@ -1,0 +1,54 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C7RxSwift10Observable", ""]
+- ["P7RxSwift10Disposable", ""]
+- ["C7RxSwift10Observable", "from"]
+- ["C7RxSwift10Observable", "from"]
+- ["P7RxSwift10Disposable", "addDisposableTo"]
+provides-dynamic-lookup:
+depends-top-level:
+- "DisposeBag"
+- "ImmediateSchedulerType"
+- "Disposable"
+- "Observable"
+depends-member:
+- !private ["Ps9AnyObject", "Observable"]
+- !private ["Ps9AnyObject", "from"]
+- ["P7RxSwift10Disposable", "DisposeBag"]
+- ["P7RxSwift10Disposable", "addDisposableTo"]
+- !private ["P7RxSwift10Disposable", "disposed"]
+- ["C7RxSwift10DisposeBag", "deinit"]
+- ["P7RxSwift22ImmediateSchedulerType", "deinit"]
+- ["C7RxSwift10Observable", "E"]
+- ["C7RxSwift10Observable", "ImmediateSchedulerType"]
+- ["C7RxSwift10Observable", "Observable"]
+- ["C7RxSwift10Observable", "deinit"]
+- ["C7RxSwift10Observable", "from"]
+- !private ["P7RxSwift25ObservableConvertibleType", "Observable"]
+- !private ["P7RxSwift25ObservableConvertibleType", "from"]
+- !private ["P7RxSwift14ObservableType", "Observable"]
+- !private ["P7RxSwift14ObservableType", "from"]
+- ["Sq", "deinit"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "P7RxSwift10Disposable"
+- "C7RxSwift10DisposeBag"
+- "P7RxSwift22ImmediateSchedulerType"
+- "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- "Sq"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "96e794860473c9ae695a0b73af0dfa55"

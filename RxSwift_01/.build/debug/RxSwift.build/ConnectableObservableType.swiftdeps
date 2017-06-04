@@ -1,0 +1,36 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConnectableObservableType"
+provides-nominal:
+- "P7RxSwift25ConnectableObservableType"
+provides-member:
+- ["P7RxSwift25ConnectableObservableType", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ObservableType"
+- "Disposable"
+- "ConnectableObservableType"
+depends-member:
+- ["P7RxSwift25ConnectableObservableType", "Disposable"]
+- ["P7RxSwift25ConnectableObservableType", "connect"]
+- ["P7RxSwift25ObservableConvertibleType", "Disposable"]
+- ["P7RxSwift25ObservableConvertibleType", "connect"]
+- ["P7RxSwift14ObservableType", "Disposable"]
+- ["P7RxSwift14ObservableType", "connect"]
+- ["P7RxSwift14ObservableType", ""]
+depends-nominal:
+- "P7RxSwift25ConnectableObservableType"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "45bca2fc258fc6fa45250410b7d6fc15"

@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxSwift_01.build/master.swiftdeps"
+  },
+  "/Users/Nestor/Documents/iOSBackup/RxSwift_01/RxSwift_01/AppDelegate.swift": {
+    "dependencies": "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxSwift_01.build/AppDelegate.d",
+    "object": "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxSwift_01.build/AppDelegate.swift.o",
+    "swiftmodule": "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxSwift_01.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxSwift_01.build/AppDelegate.swiftdeps"
+  },
+  "/Users/Nestor/Documents/iOSBackup/RxSwift_01/RxSwift_01/ViewController.swift": {
+    "dependencies": "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxSwift_01.build/ViewController.d",
+    "object": "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxSwift_01.build/ViewController.swift.o",
+    "swiftmodule": "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxSwift_01.build/ViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxSwift_01.build/ViewController.swiftdeps"
+  }
+}

@@ -1,0 +1,64 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnyObserver"
+provides-nominal:
+- "V7RxSwift11AnyObserver"
+provides-member:
+- ["V7RxSwift11AnyObserver", ""]
+- ["P7RxSwift12ObserverType", ""]
+- ["V7RxSwift11AnyObserver", "s"]
+- ["P7RxSwift12ObserverType", "asObserver"]
+- ["P7RxSwift12ObserverType", "mapObserver"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObserver"
+- "ObserverType"
+- "Bag"
+- "Event"
+- "AssignmentPrecedence"
+- "Void"
+depends-member:
+- ["V7RxSwift11AnyObserver", "AnyObserver"]
+- ["V7RxSwift11AnyObserver", "Bag"]
+- ["V7RxSwift11AnyObserver", "E"]
+- ["V7RxSwift11AnyObserver", "Element"]
+- ["V7RxSwift11AnyObserver", "Event"]
+- ["V7RxSwift11AnyObserver", "EventHandler"]
+- ["V7RxSwift11AnyObserver", "ObserverType"]
+- ["V7RxSwift11AnyObserver", "Void"]
+- ["V7RxSwift11AnyObserver", "asObserver"]
+- ["V7RxSwift11AnyObserver", "deinit"]
+- ["V7RxSwift11AnyObserver", "init"]
+- !private ["V7RxSwift11AnyObserver", "observer"]
+- ["V7RxSwift11AnyObserver", "on"]
+- ["V7RxSwift11AnyObserver", "s"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- ["O7RxSwift5Event", "deinit"]
+- !private ["O7RxSwift5Event", "map"]
+- !private ["P7RxSwift16EventConvertible", "map"]
+- ["P7RxSwift12ObserverType", "AnyObserver"]
+- ["P7RxSwift12ObserverType", "E"]
+- ["P7RxSwift12ObserverType", "asObserver"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- ["P7RxSwift12ObserverType", "mapObserver"]
+- !private ["P7RxSwift12ObserverType", "observer"]
+- ["P7RxSwift12ObserverType", "on"]
+- ["P7RxSwift12ObserverType", ""]
+depends-nominal:
+- "V7RxSwift11AnyObserver"
+- !private "Ps28CustomDebugStringConvertible"
+- "O7RxSwift5Event"
+- !private "P7RxSwift16EventConvertible"
+- "P7RxSwift12ObserverType"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "6f261fa0ad75a9f93692c55e2a53e952"

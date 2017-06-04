@@ -1,0 +1,47 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImmediateSchedulerType"
+provides-nominal:
+- "P7RxSwift22ImmediateSchedulerType"
+provides-member:
+- ["P7RxSwift22ImmediateSchedulerType", ""]
+- ["P7RxSwift22ImmediateSchedulerType", "scheduleRecursive"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Disposables"
+- "ImmediateSchedulerType"
+- "Disposable"
+- !private "RecursiveImmediateScheduler"
+depends-member:
+- !private ["Ps9AnyObject", "dispose"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "schedule"]
+- ["P7RxSwift10Cancelable", "deinit"]
+- !private ["V7RxSwift11Disposables", "create"]
+- ["P7RxSwift22ImmediateSchedulerType", "Disposable"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "Disposables"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "RecursiveImmediateScheduler"]
+- ["P7RxSwift22ImmediateSchedulerType", "schedule"]
+- ["P7RxSwift22ImmediateSchedulerType", "scheduleRecursive"]
+- ["C7RxSwift27RecursiveImmediateScheduler", "deinit"]
+- !private ["C7RxSwift27RecursiveImmediateScheduler", "dispose"]
+- !private ["C7RxSwift27RecursiveImmediateScheduler", "init"]
+- !private ["C7RxSwift27RecursiveImmediateScheduler", "schedule"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "P7RxSwift10Cancelable"
+- !private "V7RxSwift11Disposables"
+- "P7RxSwift22ImmediateSchedulerType"
+- "C7RxSwift27RecursiveImmediateScheduler"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "8dcf4a7f627bef6c016a55b7ff7a67b0"

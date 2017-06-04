@@ -1,0 +1,73 @@
+PODS:
+  - Alamofire (4.4.0)
+  - PKHUD (3.2.1)
+  - RxCocoa (3.5.0):
+    - RxSwift (~> 3.4)
+  - RxDataSources (1.0.3):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
+  - RxSwift (3.5.0)
+  - SwiftLocation (2.0.7)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`)
+  - PKHUD (from `https://github.com/toyship/PKHUD.git`)
+  - RxCocoa (from `https://github.com/ReactiveX/RxSwift.git`)
+  - RxDataSources (from `https://github.com/RxSwiftCommunity/RxDataSources.git`)
+  - RxSwift (from `https://github.com/ReactiveX/RxSwift.git`)
+  - SwiftLocation (from `https://github.com/malcommac/SwiftLocation.git`)
+  - SwiftyJSON (from `https://github.com/BaiduHiDeviOS/SwiftyJSON.git`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+  PKHUD:
+    :git: https://github.com/toyship/PKHUD.git
+  RxCocoa:
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxDataSources:
+    :git: https://github.com/RxSwiftCommunity/RxDataSources.git
+  RxSwift:
+    :git: https://github.com/ReactiveX/RxSwift.git
+  SwiftLocation:
+    :git: https://github.com/malcommac/SwiftLocation.git
+  SwiftyJSON:
+    :branch: swift3
+    :git: https://github.com/BaiduHiDeviOS/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: c8700ac7ea6b7efa7200e2920bf528e88b4dbee6
+    :git: https://github.com/Alamofire/Alamofire.git
+  PKHUD:
+    :commit: 28fb970b41d63134e962f9da766b96670c0f55f0
+    :git: https://github.com/toyship/PKHUD.git
+  RxCocoa:
+    :commit: 520b1db2237f55763c7b6211dc9d8255967eee69
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxDataSources:
+    :commit: fb78718525033ef99ddbe6ff641ea74a214ee1a7
+    :git: https://github.com/RxSwiftCommunity/RxDataSources.git
+  RxSwift:
+    :commit: 520b1db2237f55763c7b6211dc9d8255967eee69
+    :git: https://github.com/ReactiveX/RxSwift.git
+  SwiftLocation:
+    :commit: a1e14c09b6816baf8f90623400dcd1c1684f3077
+    :git: https://github.com/malcommac/SwiftLocation.git
+  SwiftyJSON:
+    :commit: de5dc3b1b421805769590d331178551bbb0e5733
+    :git: https://github.com/BaiduHiDeviOS/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 4c2bf7fa03c4a626163606de0a417568c270575e
+  PKHUD: 001c11518f125a273ddf026bcc64918423744ea2
+  RxCocoa: ec6fc30710fe1bb509b4743c535e990d41d8e8a9
+  RxDataSources: 174ab36006db78c8fdde3e5c12e344c24504c550
+  RxSwift: 52c0cf4799c1db7de469b6a68c4f786be7bc9f14
+  SwiftLocation: c474b51ebde74ca94d26eff005d2ebbdbb458dd9
+  SwiftyJSON: 6118fb49d7519c4d31a0c1f3d5af936e9047b556
+
+PODFILE CHECKSUM: 3c79b2efab87e938ad8919dce16f0abedc68f8ee
+
+COCOAPODS: 1.2.1

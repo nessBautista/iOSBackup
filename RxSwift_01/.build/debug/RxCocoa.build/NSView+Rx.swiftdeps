@@ -1,0 +1,70 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["V7RxSwift8Reactive", ""]
+- ["V7RxSwift8Reactive", "isHidden"]
+- ["V7RxSwift8Reactive", "alpha"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "NSView"
+- "UIBindingObserver"
+- !private "AssignmentPrecedence"
+- "Reactive"
+- "CGFloat"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Sb", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["CSo8NSObject", "alphaValue"]
+- !private ["CSo8NSObject", "isHidden"]
+- !private ["CSo11NSResponder", "alphaValue"]
+- !private ["CSo11NSResponder", "isHidden"]
+- !private ["CSo6NSView", "alphaValue"]
+- !private ["CSo6NSView", "isHidden"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- ["V7RxSwift8Reactive", "Base"]
+- ["V7RxSwift8Reactive", "Bool"]
+- ["V7RxSwift8Reactive", "CGFloat"]
+- ["V7RxSwift8Reactive", "NSView"]
+- ["V7RxSwift8Reactive", "UIBindingObserver"]
+- ["V7RxSwift8Reactive", "alpha"]
+- !private ["V7RxSwift8Reactive", "base"]
+- ["V7RxSwift8Reactive", "deinit"]
+- ["V7RxSwift8Reactive", "isHidden"]
+- ["C7RxCocoa17UIBindingObserver", "deinit"]
+- !private ["C7RxCocoa17UIBindingObserver", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sb"
+- !private "V12CoreGraphics7CGFloat"
+- !private "CSo8NSObject"
+- !private "CSo11NSResponder"
+- !private "CSo6NSView"
+- !private "P7RxSwift12ObserverType"
+- "V7RxSwift8Reactive"
+- "C7RxCocoa17UIBindingObserver"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxSwift.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/.build/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/Nestor/Documents/Xcode7/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RXObjCRuntime.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RXKVOObserver.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RXDelegateProxy.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/_RX.h"
+- "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/RxCocoaRuntime.h"
+interface-hash: "100dd5b6330335bc2fd0e53871571247"

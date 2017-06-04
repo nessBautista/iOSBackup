@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "70f5b28c35d02f406023095e3cb30835"
+build_time: [548963636, 562224000]
+inputs:
+  "/Users/Nestor/Documents/iOSBackup/RxSwift_01/RxSwift_01/AppDelegate.swift": !dirty [548963304, 0]
+  "/Users/Nestor/Documents/iOSBackup/RxSwift_01/RxSwift_01/ViewController.swift": !dirty [548963304, 0]

@@ -1,0 +1,5 @@
+module RxCocoaRuntime {
+    umbrella header "/Users/Nestor/Documents/iOSBackup/RxSwift_01/Packages/RxSwift-3.4.1/Sources/RxCocoaRuntime/include/RxCocoaRuntime.h"
+    link "RxCocoaRuntime"
+    export *
+}
