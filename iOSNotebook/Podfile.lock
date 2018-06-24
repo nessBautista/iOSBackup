@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - Differentiator (3.0.2)
+  - Outlaw (1.1.0)
+  - Result (3.0.0)
+  - RxAlamofire (4.2.0):
+    - RxAlamofire/Core (= 4.2.0)
+  - RxAlamofire/Core (4.2.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireImage (~> 3.3)
+  - Outlaw
+  - Result (~> 3.0.0)
+  - RxAlamofire
+  - RxCocoa (~> 4.0)
+  - RxDataSources (~> 3.0)
+  - RxSwift (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireImage
+    - Differentiator
+    - Outlaw
+    - Result
+    - RxAlamofire
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  Outlaw: 00b32d73bee9a62b5150683f70c491d3307d999f
+  Result: 1b3e431f37cbcd3ad89c6aa9ab0ae55515fae3b6
+  RxAlamofire: 87a9c588541210cc3e4a1f843ccc3ecf3eb98b31
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+
+PODFILE CHECKSUM: ed394cc0735d61d20e2a6e2a8838d22aaa180b71
+
+COCOAPODS: 1.5.0

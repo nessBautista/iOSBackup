@@ -1,0 +1,6 @@
+framework module Pods_iOSNotebook {
+  umbrella header "Pods-iOSNotebook-umbrella.h"
+
+  export *
+  module * { export * }
+}

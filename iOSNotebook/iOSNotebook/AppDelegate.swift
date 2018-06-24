@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //RX_101.shared.variables()
+        //RX_101.shared.behaviourRelayExample()
+        //RX_101.shared.subjects()
+        //RX_101.shared.basicObservables()
+        //RX_101.shared.creatingObservables()
+        //RX_101.shared.repeatableObservable()
         return true
     }
 
