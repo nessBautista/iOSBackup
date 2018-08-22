@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="48" id="KGk-i7-Jjw" customClass="PivotCell" customModule="iOSNotebook" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="337" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="337" height="47.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WuK-9E-Lby">
+                        <rect key="frame" x="10" y="0.0" width="317" height="47"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="downArrow" translatesAutoresizingMaskIntoConstraints="NO" id="anX-eW-pxe">
+                                <rect key="frame" x="146" y="11" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="7XH-2k-Xte"/>
+                                    <constraint firstAttribute="height" constant="25" id="A4z-qy-mhV"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="anX-eW-pxe" firstAttribute="top" secondItem="WuK-9E-Lby" secondAttribute="top" constant="11" id="6Wf-Fc-lwT"/>
+                            <constraint firstAttribute="bottom" secondItem="anX-eW-pxe" secondAttribute="bottom" constant="11" id="JTN-Zv-Sb0"/>
+                            <constraint firstItem="anX-eW-pxe" firstAttribute="leading" secondItem="WuK-9E-Lby" secondAttribute="leading" constant="146" id="xK0-Pc-qZj"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.92941176470588238" green="0.92549019607843142" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="WuK-9E-Lby" secondAttribute="trailing" constant="10" id="2Ml-32-1by"/>
+                    <constraint firstItem="WuK-9E-Lby" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="QJY-5E-UZ9"/>
+                    <constraint firstAttribute="bottom" secondItem="WuK-9E-Lby" secondAttribute="bottom" constant="0.5" id="Sdb-oa-tfm"/>
+                    <constraint firstItem="WuK-9E-Lby" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="uTk-XO-Fe5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="33.5" y="56"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="downArrow" width="20" height="20"/>
+    </resources>
+</document>
